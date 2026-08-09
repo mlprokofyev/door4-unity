@@ -1,0 +1,9 @@
+{
+  "name": "door4-unity",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Door 4 — Perun (Unity WebGL production build, pre-built). Deployed under /doors/4/ by doors-deploy-orchestrator.",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r index.html Build dist/"
+  }
+}
