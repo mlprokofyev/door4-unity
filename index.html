@@ -6,7 +6,7 @@
   <title>Perun</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&family=Cormorant&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; }
     html, body {
@@ -65,6 +65,14 @@
       letter-spacing: 0.1em;
       margin-top: 1rem;
     }
+    #loading-subtitle {
+      color: #9a9a9a;
+      font-family: "Cormorant", Georgia, serif;
+      font-size: 1.15rem;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      margin-top: 2.5rem;
+    }
     #back-to-hub {
       position: fixed;
       left: 12px;
@@ -87,6 +95,7 @@
     <div id="loading-title">Door 4, knock-knock</div>
     <div id="loading-bar-bg"><div id="loading-bar-fill"></div></div>
     <div id="loading-percent">0%</div>
+    <div id="loading-subtitle">*вдохновлено славянской мифологией*</div>
   </div>
   <canvas id="unity-canvas" tabindex="-1"></canvas>
   <a id="back-to-hub" href="/doors" aria-label="Back to hub">&larr; Doors</a>
